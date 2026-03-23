@@ -1,0 +1,22 @@
+# math_operations functions
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+
+# string_operations functions
+def to_upper(text):
+    return text.upper()
+
+def to_lower(text):
+    return text.lower()
+
+
+# Main program (using all functions)
+if __name__ == "__main__":
+    print("Addition:", add(5, 3))
+    print("Subtraction:", subtract(10, 4))
+    print("Uppercase:", to_upper("hello"))
+    print("Lowercase:", to_lower("WORLD"))
